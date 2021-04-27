@@ -12,7 +12,7 @@ export default class n2048 extends React.Component {
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Welcome to React 360
+            N2048
           </Text>
         </View>
       </View>
