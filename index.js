@@ -6,6 +6,12 @@ import {
   View,
 } from 'react-360';
 
+import Info from './src/components/Info';
+AppRegistry.registerComponent('Info', () => Info);
+
+import Sphere from './src/components/Sphere';
+AppRegistry.registerComponent('Sphere', () => Sphere);
+
 export default class n2048 extends React.Component {
   render() {
     return (
